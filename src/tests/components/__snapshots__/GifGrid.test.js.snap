@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas a <GifGrid /> Hacer el match con el snapshot 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One punch
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Loading
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`Pruebas a <GifGrid /> Verificar que se muestren los items cuando se carguen las imagenes con useFetchGifs 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    One punch
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="cualquier cosa"
+      url="https://media4.giphy.com/media/ZvSojyTPq4OXe/giphy.gif?cid=9c607b57zhg2p5uq15jj5sijh04r5idleqz3u8et76t5lsvd&rid=giphy.gif"
+    />
+  </div>
+</Fragment>
+`;
